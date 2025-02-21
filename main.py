@@ -13,7 +13,7 @@ def hello_world():
 @app.get('/api/restaurantes/')
 def get_restaurantes(restaurante: str = Query(None)):
     '''
-    ENDPOINT QUE EXIBE CARDÁPIOS DO RESTAURANTE
+    ENDPOINT QUE EXIBE CARDÁPIOS DO RESTAURANTE - QUE CRIEI
     '''
     url = 'https://guilhermeonrails.github.io/api-restaurantes/restaurantes.json'
 
